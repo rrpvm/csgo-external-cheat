@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ImGui">
+      <UniqueIdentifier>{0e55ddd1-e0d6-407f-a74f-8e0f5615985e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Features">
+      <UniqueIdentifier>{c168e542-58f8-4f5a-b932-928869e52b8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\feauters">
+      <UniqueIdentifier>{a53439be-8509-402f-9894-06014d407835}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Main and etc">
+      <UniqueIdentifier>{fb8c9efd-2726-445e-b071-7315a3da3185}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Main and etc">
+      <UniqueIdentifier>{aeed1e2e-9f61-498a-91f8-b8e715da9945}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\MATH">
+      <UniqueIdentifier>{9e151b28-dcc3-4a9b-b601-2a45f6857439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\MATH">
+      <UniqueIdentifier>{1637a4c4-a948-446e-a6be-6a4f16e3d46e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="LocalPlayer.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="menu.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IMGUI\imgui_impl_win32.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IMGUI\imgui_widgets.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IMGUI\imgui.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IMGUI\imgui_demo.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IMGUI\imgui_draw.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\IMGUI\imgui_impl_dx9.cpp">
+      <Filter>ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Glow.cpp">
+      <Filter>Исходные файлы\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Исходные файлы\Main and etc</Filter>
+    </ClCompile>
+    <ClCompile Include="ExternalHack.cpp">
+      <Filter>Исходные файлы\Main and etc</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalVars.cpp">
+      <Filter>Исходные файлы\Main and etc</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>Исходные файлы\Main and etc</Filter>
+    </ClCompile>
+    <ClCompile Include="Singleton.cpp">
+      <Filter>Исходные файлы\Main and etc</Filter>
+    </ClCompile>
+    <ClCompile Include="vec2.cpp">
+      <Filter>Исходные файлы\MATH</Filter>
+    </ClCompile>
+    <ClCompile Include="vec3.cpp">
+      <Filter>Исходные файлы\MATH</Filter>
+    </ClCompile>
+    <ClCompile Include="AimBot.cpp">
+      <Filter>Исходные файлы\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="RCS.cpp">
+      <Filter>Исходные файлы\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Bunnyhope.cpp">
+      <Filter>Исходные файлы\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Triggerbot.cpp">
+      <Filter>Исходные файлы\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="fakelag.cpp">
+      <Filter>Исходные файлы\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinChanger.cpp">
+      <Filter>Исходные файлы\Features</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LocalPlayer.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IMGUI\imgui_impl_win32.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IMGUI\imgui_internal.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IMGUI\imstb_rectpack.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IMGUI\imstb_textedit.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IMGUI\imstb_truetype.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IMGUI\imconfig.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IMGUI\imgui.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\IMGUI\imgui_impl_dx9.h">
+      <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Glow.h">
+      <Filter>Файлы заголовков\feauters</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Файлы заголовков\Main and etc</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalVars.h">
+      <Filter>Файлы заголовков\Main and etc</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Файлы заголовков\Main and etc</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Файлы заголовков\Main and etc</Filter>
+    </ClInclude>
+    <ClInclude Include="vec2.h">
+      <Filter>Файлы заголовков\MATH</Filter>
+    </ClInclude>
+    <ClInclude Include="vec3.h">
+      <Filter>Файлы заголовков\MATH</Filter>
+    </ClInclude>
+    <ClInclude Include="AimBot.h">
+      <Filter>Файлы заголовков\feauters</Filter>
+    </ClInclude>
+    <ClInclude Include="RCS.h">
+      <Filter>Файлы заголовков\feauters</Filter>
+    </ClInclude>
+    <ClInclude Include="Bunnyhope.h">
+      <Filter>Файлы заголовков\feauters</Filter>
+    </ClInclude>
+    <ClInclude Include="Triggerbot.h">
+      <Filter>Файлы заголовков\feauters</Filter>
+    </ClInclude>
+    <ClInclude Include="fakelag.h">
+      <Filter>Файлы заголовков\feauters</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinChanger.h">
+      <Filter>Файлы заголовков\feauters</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

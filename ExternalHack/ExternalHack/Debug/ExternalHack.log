@@ -1,0 +1,5 @@
+﻿  AimBot.cpp
+c:\users\roman\source\repos\externalhack\externalhack\aimbot.cpp(32): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+c:\users\roman\source\repos\externalhack\externalhack\aimbot.cpp(33): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+c:\users\roman\source\repos\externalhack\externalhack\aimbot.cpp(73): warning C4244: аргумент: преобразование "float" в "uintptr_t", возможна потеря данных
+  ExternalHack.vcxproj -> C:\Users\Roman\source\repos\ExternalHack\Debug\ExternalHack.exe

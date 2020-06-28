@@ -1,0 +1,3 @@
+﻿  GlobalVars.cpp
+c:\users\roman\source\repos\externalhack\externalhack\globalvars.cpp(79): warning C4715: GlobalVars::findEntityByBaseInList: значение возвращается не при всех путях выполнения
+  ExternalHack.vcxproj -> C:\Users\Roman\source\repos\ExternalHack\Release\ExternalHack.exe
